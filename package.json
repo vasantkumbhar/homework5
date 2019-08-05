@@ -1,0 +1,43 @@
+{
+  "name": "homework_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "net": "^1.0.2",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasantkumbhar/homework_4.git"
+  },
+  "author": "Vasant Kumbhar <vasant_kumbhar@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasantkumbhar/homework_4/issues"
+  },
+  "homepage": "https://github.com/vasantkumbhar/homework_4#readme",
+  "description": ""
+}
