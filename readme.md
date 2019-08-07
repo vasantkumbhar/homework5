@@ -13,6 +13,15 @@ Homehowrk 5 Guideline -
 	Header:
 	Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEiLCJpYXQiOjE1NjUwMDY1MTgsImV4cCI6MTU2NTAxMDExOH0.9dxKozDnWXxmQ9igQxYgsJMvgrtXly3VgUJggVft8oI
 
+3. Authenticate user using passport local strategy
+	Req URL:
+		http://localhost:8000/api/authenticate
+
+	Request Body:
+	{
+		"username": "user_1",
+		"password": "pwd_1"
+	}
 
 Homework 4 Guideline - 
 

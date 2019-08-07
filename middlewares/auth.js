@@ -7,22 +7,6 @@ var dummyAuthReq = {
     "password": "pwd_1"
 };
 
-// function customResponse(message, data, res){
-//     console.log(message);
-//     if(data.length){
-//         return res.status(200).send({
-//             message: message,
-//             data: data
-//         });
-//     }
-//     else{
-//         return res.status(404).send({
-//             message: message,
-//             data: data
-//         });
-//     }
-// }
-
 app.post("/api/auth", (req, res) => {
     let loginReq = req.body;
 
@@ -56,4 +40,4 @@ app.post("/api/auth", (req, res) => {
             });
          }
     })
-})
+});
