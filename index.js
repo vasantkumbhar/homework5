@@ -3,7 +3,7 @@ require('./controllers/product');
 require('./controllers/user');
 require('./middlewares/auth');
 require('./middlewares/passport-local');
-require('./middlewares/passport-facebook');
+// require('./middlewares/passport-facebook');
 
 const port = process.env.PORT || 8000;
 
