@@ -1,0 +1,12 @@
+{
+    "name": "Node.js Homework Application",
+    "appSecret": "qwerty12345",
+    "username": "abc@xyz.com",
+    "password": "123456",
+    "FACEBOOK_APP_ID": "aisudakshdn",
+    "FACEBOOK_APP_SECRET": "1234qweqwr",
+    "TWITTER_CONSUMER_KEY": "twitter123",
+    "TWITTER_CONSUMER_SECRET": "secert123123",
+    "GOOGLE_CONSUMER_KEY": "google123123",
+    "GOOGLE_CONSUMER_SECRET": "secretaksjkjasd"
+}
